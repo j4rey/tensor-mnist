@@ -11,4 +11,19 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'tensor-mnist';
+
+  links = [
+    {
+      title: 'Home',
+      url: '/'
+    },
+    {
+      title: 'Train',
+      url: '/train'
+    },
+    {
+      title: 'Predict',
+      url: '/predict'
+    }
+  ]
 }
