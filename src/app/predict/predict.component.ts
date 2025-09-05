@@ -4,11 +4,10 @@ import * as tfvis from '@tensorflow/tfjs-vis';
 import { DataService } from '../services/data';
 
 @Component({
-  selector: 'app-predict',
-  standalone: true,
-  imports: [],
-  templateUrl: './predict.component.html',
-  styleUrl: './predict.component.scss'
+    selector: 'app-predict',
+    imports: [],
+    templateUrl: './predict.component.html',
+    styleUrl: './predict.component.scss'
 })
 export class PredictComponent {
 
